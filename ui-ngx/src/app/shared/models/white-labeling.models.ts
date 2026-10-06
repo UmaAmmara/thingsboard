@@ -87,16 +87,16 @@ loginWlParams.darkForeground = false;
 
 export const defaultLoginWlParams = loginWlParams;
 
-export const tbPrimaryPalette: ColorPalette = extendDefaultPalette('teal', {
-  500: '#00695c'
+export const tbPrimaryPalette: ColorPalette = extendDefaultPalette('deep-purple', {
+  500: '#5E35B1'
 });
-export const tbAccentPalette: ColorPalette = extendDefaultPalette('deep-orange', {});
+export const tbAccentPalette: ColorPalette = extendDefaultPalette('orange', {});
 
-export const tbLoginPrimaryPalette: ColorPalette = extendDefaultPalette('teal', {
-  200: '#00c3b6',
-  500: '#00695c'
+export const tbLoginPrimaryPalette: ColorPalette = extendDefaultPalette('deep-purple', {
+  200: '#B39DDB',
+  500: '#5E35B1'
 });
-export const tbLoginAccentPalette: ColorPalette = extendDefaultPalette('deep-orange', {});
+export const tbLoginAccentPalette: ColorPalette = extendDefaultPalette('orange', {});
 
 export const mergeDefaults = <T extends WhiteLabelingParams & LoginWhiteLabelingParams>(wlParams: T,
                               targetDefaultWlParams?: T): T => {
